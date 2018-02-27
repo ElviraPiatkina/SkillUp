@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Table</title>
+	<link rel="stylesheet" href="style_table.css">
+</head>
+<body>
+
+	<table border="1" cellpadding="3">
+		<thead>
+			<td>Row Number</td>
+			<td>Item Description</td>
+			<td>Item Price</td>
+			<td>Quantity</td>
+			<td>Sub-Total</td>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Nike</td>
+				<td><input type="text" id="p1"></td>
+				<td><input type="text" id="q1"></td>
+				<td><span class="r1"></span></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Converse</td>
+				<td><input type="text" id="p2"></td>
+				<td><input type="text" id="q2"></td>
+				<td><span class="r2"></span></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Adidas</td>
+				<td><input type="text" id="p3"></td>
+				<td><input type="text" id="q3"></td>
+				<td><span class="r3"></span></td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Reebok</td>
+				<td><input type="text" id="p4"></td>
+				<td><input type="text" id="q4"></td>
+				<td><span class="r4"></span></td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Vans</td>
+				<td><input type="text" id="p5"></td>
+				<td><input type="text" id="q5"></td>
+				<td><span class="r5"></span></td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>Fila</td>
+				<td><input type="text" id="p6"></td>
+				<td><input type="text" id="q6"></td>
+				<td><span class="r6"></span></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<td></td>
+			<td></td>
+			<td>Total Qty:</td>
+			<td><span class="r7"></span>&emsp;<span>Total Amount:</span></td>
+			<td><span class="r8"></span></td>
+		</tfoot>
+	</table>
+	<br>
+	<div>
+		<button id="calc" onclick="calc()">Calculate</button>
+	</div>
+
+	<script src="form_table.js"></script>
+</body>
+</html>

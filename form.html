@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+</head>
+<body>
+	<div class="form">
+		<div>
+			<label for="n1">First number</label>
+			<input type="text" id="n1">
+		</div>
+		<div>
+			<label for="n2">Second number</label>
+			<input type="text" id="n2">
+		</div>
+		<div>
+			<button id="multiply" onclick="calc(1)">Multiply</button>
+			<button id="divide" onclick="calc(2)">Divide</button>
+			<button id="plus" onclick="calc(3)">Plus</button>
+			<button id="minus" onclick="calc(4)">Minus</button>
+		</div>
+		<div>
+			<p>Rezult:</p>
+			<p class="rezult"></p>
+		</div>
+	</div>
+	<script src="form.js"></script>
+</body>
+</html>
