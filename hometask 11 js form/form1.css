@@ -1,0 +1,49 @@
+* {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+#form p {
+	font-size: 26px;
+	border-bottom: 1px solid #ded9d9;
+}
+
+#form {
+	width: 100%;
+	position: relative;
+}
+
+#form>div {
+	position: absolute;
+	left: 33%;
+	top: 60px;
+}
+
+#form div div input {
+	display: block;
+	width: 250px;
+	border: 1px solid #ded9d9;
+	border-radius: 3px;
+	padding: 10px;
+	margin: 10px 0 10px;
+}
+
+#add {
+	padding: 10px;
+	border: 1px solid #64b570;
+	border-radius: 3px;
+	background-color: #64b570;
+	color: white;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+#remove {
+	padding: 10px;
+	border: 1px solid #fa4b5a;
+	border-radius: 3px;
+	background-color: #fa4b5a;
+	color: white;
+	margin-right: 5px;
+	cursor: pointer;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form 2</title>
+	<link rel="stylesheet" href="form2.css">
+</head>
+<body>
+	
+	<!-- <form action="1.php"> -->
+		<div id="form">
+			<p>Form Name</p>
+			<div>
+				<div id="container">
+					<div id="element">
+						<h2>Member</h2>
+						<input type="text" placeholder="item" id="input">
+						<button name="remove" id="remove" onClick="this.parentNode.parentNode.removeChild(this.parentNode);">remove</button>
+					</div>
+					<div>
+						<button name="add" id="add" onclick="adding()">Add</button>
+					</div>
+				</div>	
+			</div>
+		</div>
+<!-- 	</form> -->
+
+	<script src="form2.js"></script>
+</body>
+</html>
