@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+thead, tfoot {
+	font-weight: bold;
+}
+
+thead td {
+	text-align: center;
+}
+
+input {
+	width: 120px;
+}
+
+.r7, .r8 {
+	font-size: 14px;
+	color: green;
+}
