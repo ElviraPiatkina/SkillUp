@@ -1,3 +1,10 @@
+function removing() {
+	b = event.target;
+	b.parentElement.parentElement.removeChild(b.parentElement);
+}
+
+remove.onclick = removing;
+
 function adding() {
 
 	var container = document.querySelector('#container');
@@ -20,8 +27,7 @@ function adding() {
 	var button = document.createElement('button');
 	button.setAttribute('name', 'remove');
 	button.setAttribute('id', 'remove');
-	button.setAttribute('onclick', 'this.parentNode.parentNode.removeChild(this.parentNode);');
+	button.setAttribute('onclick', 'removing()');
 	button.innerHTML = 'remove';
 	div.appendChild(button);
 }
-
